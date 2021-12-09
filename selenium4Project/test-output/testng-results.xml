@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20017" started-at="2021-12-08T23:05:55 CST" finished-at="2021-12-08T23:06:15 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20017" started-at="2021-12-08T23:05:55 CST" finished-at="2021-12-08T23:06:15 CST">
+      <class name="selenium4Project.Selenium4Features">
+        <test-method status="PASS" signature="openNewTab()[pri:0, instance:selenium4Project.Selenium4Features@458c1321]" name="openNewTab" duration-ms="6598" started-at="2021-12-08T23:05:55 CST" finished-at="2021-12-08T23:06:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewTab -->
+        <test-method status="PASS" signature="ScreenShotTest()[pri:1, instance:selenium4Project.Selenium4Features@458c1321]" name="ScreenShotTest" duration-ms="4521" started-at="2021-12-08T23:06:02 CST" finished-at="2021-12-08T23:06:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotTest -->
+        <test-method status="PASS" signature="openNewWindow()[pri:2, instance:selenium4Project.Selenium4Features@458c1321]" name="openNewWindow" duration-ms="4836" started-at="2021-12-08T23:06:06 CST" finished-at="2021-12-08T23:06:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewWindow -->
+        <test-method status="PASS" signature="Location()[pri:4, instance:selenium4Project.Selenium4Features@458c1321]" name="Location" duration-ms="4016" started-at="2021-12-08T23:06:11 CST" finished-at="2021-12-08T23:06:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Location -->
+      </class> <!-- selenium4Project.Selenium4Features -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
