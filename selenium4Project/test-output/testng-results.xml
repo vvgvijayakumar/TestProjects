@@ -2,28 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6170" started-at="2021-12-09T00:32:34 CST" finished-at="2021-12-09T00:32:40 CST">
+  <suite name="Default suite" duration-ms="16849" started-at="2021-12-13T15:47:20 CST" finished-at="2021-12-13T15:47:37 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6170" started-at="2021-12-09T00:32:34 CST" finished-at="2021-12-09T00:32:40 CST">
-      <class name="selenium4Project.RelativeLocators">
-        <test-method status="PASS" signature="setup()[pri:0, instance:selenium4Project.RelativeLocators@5faeada1]" name="setup" is-config="true" duration-ms="5077" started-at="2021-12-09T00:32:34 CST" finished-at="2021-12-09T00:32:39 CST">
+    <test name="Default test" duration-ms="16849" started-at="2021-12-13T15:47:20 CST" finished-at="2021-12-13T15:47:37 CST">
+      <class name="selenium4Project.TakingScreenshots">
+        <test-method status="PASS" signature="takesScreenshot()[pri:0, instance:selenium4Project.TakingScreenshots@27a8c74e]" name="takesScreenshot" duration-ms="10375" started-at="2021-12-13T15:47:20 CST" description="Taking screenshot of entire page" finished-at="2021-12-13T15:47:31 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:selenium4Project.RelativeLocators@5faeada1]" name="test1" duration-ms="125" started-at="2021-12-09T00:32:39 CST" description="Test Book 5 which is left of Book 6 and below Book 1" finished-at="2021-12-09T00:32:39 CST">
+        </test-method> <!-- takesScreenshot -->
+        <test-method status="PASS" signature="takesScreenshotsectipn()[pri:0, instance:selenium4Project.TakingScreenshots@27a8c74e]" name="takesScreenshotsectipn" duration-ms="6390" started-at="2021-12-13T15:47:31 CST" description="Taking screenshot of sectipn of a page" finished-at="2021-12-13T15:47:37 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:selenium4Project.RelativeLocators@5faeada1]" name="test2" duration-ms="66" started-at="2021-12-09T00:32:39 CST" description="Test Book 2 which is right of Book 1 and above Book 6" finished-at="2021-12-09T00:32:39 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium4Project.RelativeLocators@5faeada1]" name="tearDown" is-config="true" duration-ms="864" started-at="2021-12-09T00:32:39 CST" finished-at="2021-12-09T00:32:40 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium4Project.RelativeLocators -->
+        </test-method> <!-- takesScreenshotsectipn -->
+      </class> <!-- selenium4Project.TakingScreenshots -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
