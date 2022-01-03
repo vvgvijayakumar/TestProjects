@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium4Project.RelativeLocators">
+      <class name="brokenlinks.BrokenLinks">
         <methods>
-          <include name="test1"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="brokenLinks"/>
         </methods>
-      </class> <!-- selenium4Project.RelativeLocators -->
+      </class> <!-- brokenlinks.BrokenLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
